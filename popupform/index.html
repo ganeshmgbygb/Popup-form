@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+    <button id="btn" onclick="main()">click me</button>
+    <div class="bg-modal">
+        <div id="innercontent">
+           
+            
+              
+             
+            <div class="close">x</div>
+        </div>
+        <div class="media">
+          <img class="img1" src="anonymous-user-circle-icon-vector-illustration-flat-style-with-long-shadow_520826-1931.avif">
+    
+          <input type="file" class="input" accept="image/*"></div>
+          <img id="img2">
+        <div class="content">
+           
+            <form>
+            <div class="floating-form">
+                <div class="floating-label">      
+                  <input class="floating-input" type="text" placeholder=" ">
+                  <span class="highlight"></span>
+                  <label>FristName</label>
+                </div>
+            
+                <div class="floating-label">      
+                  <input class="floating-input" type="text"  placeholder=" ">
+                  <span class="highlight"></span>
+                  <label>LastName</label>
+                </div>
+            
+                <div class="floating-label">      
+                  <input class="floating-input" type="text" onclick="(this.type='date')" placeholder=" ">
+                  <span class="highlight"></span>
+                  <label>Date</label>
+                </div>
+                <div class="floating-label">      
+                  <select class="floating-select"  onclick="this.setAttribute('value', this.value);" value="">
+                  <option value=""></option>
+                  <option value="1">Male</option>
+                  <option value="2">female</option>
+                  </select>
+                  <span class="highlight"></span>
+                  <label>Gender</label>
+                </div>
+                <div class="floating-label">  
+                  <select class="floating-select" onclick="this.setAttribute('value', this.value);" value="">
+                    <option value=""></option>
+                    <option value="1">Andhra pradesh</option>
+                    <option value="2">Telangana</option>
+                    <option value="3">Odisha</option>
+                    <option value="4">Arunachal pradesh</option>
+                    <option value="5">Tamil Nadu</option>
+                  </select>
+                  <span class="highlight"></span>
+                  <label>Select State</label>
+                </div>
+            
+                <div class="floating-label">      
+                  <textarea class="floating-input floating-textarea" placeholder=" "></textarea>
+                  <span class="highlight"></span>
+                  <label>Address</label>
+                </div>
+                <button class="sub" value="Submit">Submit</button>
+        </div>
+            </form>
+    </div>
+<script src="./p1.js"></script>  
+</body>
+</html>
